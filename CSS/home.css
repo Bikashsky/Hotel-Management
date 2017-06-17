@@ -1,0 +1,55 @@
+body {
+    background: grey;
+}
+
+.back img{
+
+	background-repeat: none;
+    background-size: cover;
+}
+
+
+ul li {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    height: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color: white;
+	margin: 5px;
+	padding: 3px;
+}
+
+.nav {
+    height: 100%;
+    background: transparent;
+    margin-bottom: 0;
+	padding-left: 200px;
+	position: fixed;
+	
+}
+
+ul li:hover {
+    background: purple;
+	border-radius: 30px;
+}
+
+.navigation .current {
+    background: #C0C0C0;
+	border-radius: 30px;
+}
+
+.logo img{
+	height: 100px;
+	width: 150px;
+	position: fixed;
+	padding: 15px;
+	border-radius: 150px;
+}

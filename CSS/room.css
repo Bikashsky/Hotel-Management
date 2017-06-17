@@ -1,0 +1,123 @@
+.Rooms{
+	overflow:scroll
+}
+
+.Rooms a{
+	text-decoration: none;
+	color: yellow;
+}
+
+.Rooms a:hover{
+	background-color: pink;
+	border-radius: 100px;
+}
+h3 {
+	color: black;
+	font-family: arial;
+	font-size: 0.9em;
+}
+
+p{
+	color: black;
+	padding-left: 10px;
+}
+
+#single {
+	margin-top: 150px;
+	margin-left: 0;
+	float: left;
+	text-align: center;
+	height: 250px;
+	width: 400px;
+	/*background-color: blue;*/
+}
+
+#single img{
+	width: 150px;
+	border: 3px solid;
+	Border-radius: 50%;
+	border-color: white;
+}
+
+#double {
+	float: left;
+	clear: right;
+	margin-top: 150px;
+	height: 250px;
+	width: 400px;
+	text-align: center;
+	/*background-color: red;*/
+}
+#double img {
+	max-width: 150px;
+	border: 3px solid;
+	border-radius: 50%;
+	border-color: white;
+}
+
+#deluxe-one {
+	float: left;
+	clear: left;
+	height: 250px;
+	width: 400px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	text-align: center;
+	/*background-color: green;*/
+}
+#deluxe-one img {
+	max-width: 150px;
+	border: 3px solid;
+	border-radius: 50%;
+	border-color: white;
+}
+
+#deluxe-two {
+	float: left;
+	clear: right;
+	height: 250px;
+	width: 400px;
+	text-align: center;
+	/*background-color: #99221c;*/
+}
+
+#deluxe-two img {
+	max-width: 150px;	
+	border: 3px solid;
+	border-radius: 50%;
+	border-color: white;
+}
+
+#Royal {
+	float: left;
+	clear: left;
+	margin: 50px;
+
+	width: 400px;
+	text-align: center;
+	background-color: #ca9b17;
+}
+
+#Royal img{
+	max-width: 150px;	
+	border: 3px solid;
+	border-radius: 50%;
+	border-color: white;
+}
+
+#king {
+	float: left;
+	clear: right;
+	margin: 50px;
+	height: 250px;
+	width: 400px;
+	text-align: center;
+	background-color: #66AFE9;
+}
+
+#king img {
+	max-width: 150px;	
+	border: 3px solid;
+	border-radius: 50%;
+	border-color: white;
+}
